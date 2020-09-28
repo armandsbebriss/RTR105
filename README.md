@@ -60,3 +60,94 @@ VirtualBox --startvm XP
    49  ./my_first_shell_script.sh
    50  chmod 744 my_first_shell_script.sh
    51  ls -lt
+       3  git clone https://github.com/armandsbebriss/RTR105
+    4  ls -l
+    5  cd /RTR105/
+    6  cd ./RTR105/
+    7  ls -l
+    8  cd ./README.md/
+    9  ls -l
+   10  cd ./.git/
+   11  ls -l
+   12  cd ~
+   13  cd ./RTR105/
+   14  cd ./README.md/
+   15  cat ./README.md 
+   16  nano first.c
+   17  ls -l
+   18  rm ./first.c 
+   19  ls-l
+   20  ls -l
+   21  nano  first.c
+   22  mkdir > GCC
+   23  mkdir --help
+   24  mkdir 'GCC'
+   25  ls -l
+   26  cp first.c > GCC
+   27  cp --help
+   28  cp first.c > ./GCC/
+   29  cd ./GCC
+   30  cd ./GCC/
+   31  ls -l
+   32  nano first.c
+   33  rm ./GCC
+   34  gcc first.c
+   35  mkdir GCC
+   36  ls -l
+   37  cd ./GCC/
+   38  cd ..
+   39  cp first.c > GCC
+   40  cp GCC > first.c
+   41  cp first.c GCC
+   42  cd ./GCC/
+   43  ls -a
+   44  cat first.c
+   45  gcc first.c
+   46  ls -l
+   47  nano first.c
+   48  cd ..
+   49  nano first.c
+   50  rm first.c
+   51  cd ./GCC/
+   52  ls -l
+   53  nano second.c
+   54  gcc second.c
+   55  nano second.c
+   56  gcc second.c
+   57  nano second.c
+   58  nano first.c
+   59  gcc first.c
+   60  nano first.c
+   61  gcc first.c
+   62  nano first.c
+   63  gcc fisrt.c
+   64  nano first.c
+   65  gcc first.c
+   66  nano first.c
+   67  gcc first.c
+   68  ./a.out
+   69  nano first.c
+   70  ./a.out
+   71  echo $?
+   72  nano first.c
+   73  gcc first.c
+   74  nano first.c
+   75  gcc first.c
+   76  ./a.out
+   77  pwd
+   78  whoami
+   79  nano first.c
+   80  gcc first.c
+   81  nano first.c
+   82  history
+   83  history > history_20200928.txt
+   84  cd ~
+   85  cd ./RTR105/
+   86  git config --global user.email armandsbebriss@inbox.lv
+   87  rm *.out
+   88  git push master
+   89  git push origin master
+   90  cd 
+   91  firefox
+   92  history
+
