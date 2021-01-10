@@ -99,4 +99,5 @@ Rekurences reizinatajs:
 
 ### Secinājumi
 
-Kods izpildās pareizi un reprezentē visas prasības. Links uz onlinegdb vidē veidotu kodu: https://onlinegdb.com/r16FCuDCw
+Kods izpildās pareizi un reprezentē visas prasības. Links uz onlinegdb vidē veidotu kodu: https://onlinegdb.com/r16FCuDCw ; 
+Links grafika bildei: https://github.com/armandsbebriss/RTR105/blob/master/darbi/1ld_series/atanx.svg
