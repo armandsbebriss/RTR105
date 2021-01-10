@@ -2,7 +2,7 @@
 
 ## Teorija
 
-Teilora rindas ir matematiska metode, kuras izmantosana atlauj datoriem aprekinat funkciju vertibas trigonometriskam un eksponencialam funkcijam 
+Teilora rindas ir matemātiska metode, kuras izmantošana atļauj datoriem aprēķināt funkciju vērtības trigonometriskām un eksponenciālām funkcijām. 
 
 ### Kods
 ```
@@ -68,37 +68,36 @@ return S ;
 Komentaari par kodu  
 
 
-### Rezultaats
-```
-Arctan(-x) aprekinasana
-Ievadi x vertibu: 1
-
-y = atan(-1.000) = -0.785
-a0 = -0.70710678	S0 = -0.70710678
-a499 = -0.0000000000	S499 = -0.78539816
-a500 = -0.0000000000	S500 = -0.78539816
-
-
-
-
-                           500                                      
-                          _____                                    k
-                          |                                |  2  |  
-                   -k      |         (2 * k)!             |  x    | 
- arctan(-1.000) =_________ * >   ______________________ * |_______|
-                   ______  |        2   k                 |      2| 
-               _  |     2 |____ (k!) * 4 * (2 * k + 1)     |1 + x|  
-                || 1 + x   k=0                                      
-
-Definicijas apgabals: -1 ≤ x ≤ 1
-
-			              2           2     
-			   (2 * k - 1)           x      
-Rekursivais reizinatajs: __________________ * ________  
-			                            2   
-			 2 * k *(2 * k + 1)    1 + x    
+### Rezultāts
 ```
 
-### Secinajumi
+atan(x) aprekinasana:                                                                                                                           
+Ievadi argumentu x (obligaati ar vismaz vienu ciparu aiz komata!): 1,3                                                                          
+a0 = 0.70710678         S0 = 0.70710678                                                                                                         
+a499 = 0.00000000        S499 = 0.78539816                                                                                                      
+a500 = 0.00000000        S500 = 0.78539816                                                                                                      
+                                                                                                                                                
+Mans arctan = 0.78539816                                                                                                                        
+arctan no math.h: y = arctan (1.00 )=0.78539816                                                                                                 
+atan(x) izteiksme:                                                                                                                              
+                                                                                                                                                
+                           500                                                                                                                  
+                           _____                                      k                                                                         
+                         \                                   /     2 \                                                                          
+         ~     x          \             (2 * k)!            /     x   \                                                                         
+ atan(x) - __________  *    >     ______________________ * | _________ |  , kur -oo < x < oo                                                    
+             ________      /        2     k                |       2   |                                                                        
+            /     2       /_____  (k)! * 4 * (2 * k + 1)   \  1 + x   /                                                                         
+         \/ 1 + x          k=0                              \        /                                                                          
+                                                                                                                                                
+Rekurences reizinatajs:                                                                                                                         
+                   2            2                                                                                                               
+        (2 * k - 1)           x                                                                                                                 
+ R = ___________________ * ________                                                                                                             
+                                 2                                                                                                              
+      2 * k *(2 * k + 1)    1 + x
+```
+
+### Secinājumi
 
 Kods izpildās pareizi un reprezentē visas prasības. Links uz onlinegdb vidē veidotu kodu: https://onlinegdb.com/r16FCuDCw
