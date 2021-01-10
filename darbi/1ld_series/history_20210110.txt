@@ -1,0 +1,37 @@
+    1  sudo apt -get update
+    2  sudo apt install
+    3  sudo apt install git
+    4  git clone https://github.com/armandsbebriss/RTR105
+    5  ls -l -t
+    6  cd ./RTR105/
+    7  ls - l
+    8  ls
+    9  ls -l -t
+   10  rm Cvaloda/
+   11  rm ./Cvaloda/
+   12  rm darbi 
+   13  mkdir darbi
+   14  ls -l -t
+   15  cd ./darbi/
+   16  nano
+   17  cd ~
+   18  sudo apt-get update
+   19  sudo apt-get install gnuplot
+   20  gnuplot
+   21  firefox
+   22  cd ./RTR105/darbi/
+   23  nano
+   24  ls -l
+   25  gcc 1LD.c
+   26  sudo apt install gcc
+   27  gcc 1LD.c 
+   28  ls -l
+   29  nano 1LD.c 
+   30  gcc 1LD.c 
+   31  nano 1LD.c 
+   32  gcc 1LD.c 
+   33  cd ~
+   34  gnuplot
+   35  cd ./RTR105/darbi/1ld_series/
+   36  nano README.txt
+   37  history
